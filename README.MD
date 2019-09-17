@@ -33,8 +33,9 @@ Desenvolva uma aplicação que gerencie salas de reunião de uma empresa, desde 
     ## Regras de Negócio
     
     - Usuarios
-      - O sistema deve permitir o cadastro de novos usuários
-      - O sistema deve validar todos os campos antes do cadastro
+      - O sistema deve listar todos os usuarios cadastrados
+      - O sistema deve permitir o cadastro e atualização de usuários
+      - O sistema deve validar todos os campos antes do cadastro estão preenchidos.
     - Recursos
       - O sistema deve listar todos os recursos cadastrados
       - O sistema deve permitir o cadastro e atualizacao de novos recursos

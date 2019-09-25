@@ -53,8 +53,12 @@ CREATE TABLE IF NOT EXISTS agendamento_usuarios(
 	 primary key(id_agendamento,id_usuario),
 	 foreign key (id_agendamento) references agendamento(id_agendamento),
 	 foreign key (id_usuario) references usuarios(id_usuario)
-)
+);
 
+-- INSERTS PADROES STATUS AGENDAMENTO
+INSERT INTO AGENDAMENTO_STATUS(descricao)values('Cancelado');
+INSERT INTO AGENDAMENTO_STATUS(descricao)values('Em Andamento');
+INSERT INTO AGENDAMENTO_STATUS(descricao)values('Finalizado');
 
 
 
